@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Knguy47/Chrome-NoteTakerExtension#readme",
   "dependencies": {
     "auth0-chrome": "^0.1.2",
+    "express": "^4.15.3",
     "jwt-decode": "^2.2.0"
   }
 }

@@ -151,9 +151,9 @@ function renderOption(data) {
         if(url.name === tab.url) {
           url.pins.forEach(function(note, index) {
             $dropdown.append($("<option/>", {
-              label: `Pin ${index + 1}: ${note.slice(0, 15)}...`,
+              label: `Pin ${index + 1}: ${note.content.slice(0, 15)}...`,
               value: index,
-              text: note
+              text: note.content
             }));
           });
         }
